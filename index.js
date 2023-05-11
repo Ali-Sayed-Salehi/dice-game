@@ -19,4 +19,7 @@ if (randomNumber1 > randomNumber2) {
   titleMessage.textContent = "Draw!";
 }
 
+document.getElementById("refreshButton").addEventListener("click", function() {
+  location.reload();
+});
 
